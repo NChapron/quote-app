@@ -4,6 +4,7 @@ import AllQuotes from "./pages/AllQuotes";
 import QuoteDetail from "./pages/QuoteDetail";
 import NewQuote from "./pages/NewQuote";
 import Layout from "./components/layout/Layout";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -20,6 +21,12 @@ const App = () => {
         </Route>
         <Route path="/new-quote">
           <NewQuote />
+        </Route>
+        <Route path="/page-not-found">
+          <NotFound />
+        </Route>
+        <Route path="*">
+          <Redirect to="/page-not-found" />
         </Route>
       </Switch>
     </Layout>
