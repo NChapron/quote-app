@@ -7,7 +7,7 @@ const NoQuotesFound = () => {
       <p>No quotes found!</p>
       <Link className="btn" to="/new-quote">
         Add a Quote
-      </Link>
+      </Link> 
     </div>
   );
 };
