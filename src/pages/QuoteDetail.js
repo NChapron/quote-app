@@ -7,11 +7,6 @@ import { getSingleQuote } from "../lib/api";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 import { useEffect } from "react";
 
-const DUMMY_QUOTES = [
-  { id: "q1", author: "Nicolas", text: "Learning React is fun" },
-  { id: "q2", author: "Nico", text: "Learning React is great " },
-];
-
 const QuoteDetail = () => {
   const params = useParams();
   const match = useRouteMatch();
