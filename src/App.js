@@ -11,9 +11,9 @@ const App = () => {
     <Layout>
       <Switch>
         <Route path="/" exact>
-          <Redirect to="/quotes" />
+          <Redirect to="/quote-app" />
         </Route>
-        <Route path="/quotes" exact>
+        <Route path="/quote-app" exact>
           <AllQuotes />
         </Route>
         <Route path="/quotes/:quoteId">
