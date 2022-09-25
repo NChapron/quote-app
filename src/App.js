@@ -13,9 +13,6 @@ const App = () => {
         <Route path="/" exact>
           <Redirect to="/quotes" />
         </Route>
-        <Route path="/quote-app" exact>
-          <Redirect to="/quotes" />
-        </Route>
         <Route path="/quotes" exact>
           <AllQuotes />
         </Route>
@@ -27,6 +24,9 @@ const App = () => {
         </Route>
         <Route path="/page-not-found">
           <NotFound />
+        </Route>
+        <Route path="/quote-app">
+          <Redirect to="/quotes" />
         </Route>
         <Route path="*">
           <Redirect to="/page-not-found" />
