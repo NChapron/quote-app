@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nchapron/quote-app/static/css/main.01f9711f.css",
+    "main.js": "/nchapron/quote-app/static/js/main.d8360a74.js",
+    "index.html": "/nchapron/quote-app/index.html",
+    "main.01f9711f.css.map": "/nchapron/quote-app/static/css/main.01f9711f.css.map",
+    "main.d8360a74.js.map": "/nchapron/quote-app/static/js/main.d8360a74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f9711f.css",
+    "static/js/main.d8360a74.js"
+  ]
+}
